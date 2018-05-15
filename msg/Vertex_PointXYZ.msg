@@ -1,3 +1,4 @@
 int32 id
 geometry_msgs/PointStamped pointxyz
-string type
+string stype
+int32 type
