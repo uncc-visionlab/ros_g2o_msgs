@@ -111,7 +111,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ros_g2o_msgs
-  CATKIN_DEPENDS generate_messages roscpp message_runtime
+  CATKIN_DEPENDS roscpp message_runtime
 #  DEPENDS system_lib
 )
 
