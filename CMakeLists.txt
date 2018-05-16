@@ -56,7 +56,7 @@ find_package(catkin REQUIRED COMPONENTS
    Edge_SE3.msg
    Edge_SE3_PointXYZ.msg
    Edge_SE3_Plane.msg
-   g2o_map.msg
+   g2o_graph.msg
  )
 
 ## Generate services in the 'srv' folder
