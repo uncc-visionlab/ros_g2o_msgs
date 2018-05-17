@@ -1,3 +1,7 @@
+int32 keyframe_vertex_id
+int32 offset_vertex_id
+int32 previous_vertex_id
+int32 current_vertex_id
 Vertex_SE3[] vertex_se3_list
 Vertex_Plane[] vertex_plane_list
 Vertex_PointXYZ[] vertex_pointxyz_list
