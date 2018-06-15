@@ -47,7 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
- add_message_files(
+add_message_files(
    DIRECTORY msg
    FILES
    Vertex_SE3.msg
@@ -56,7 +56,10 @@ find_package(catkin REQUIRED COMPONENTS
    Edge_SE3.msg
    Edge_SE3_PointXYZ.msg
    Edge_SE3_Plane.msg
-   g2o_graph.msg
+   g2oGraph.msg
+   UNCCTrackingResultEvaluation.msg
+   UNCCVertexPayload.msg
+   UNCCLocalMap.msg
  )
 
 ## Generate services in the 'srv' folder

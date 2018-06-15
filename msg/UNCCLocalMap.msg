@@ -1,0 +1,8 @@
+int32 keyframe_vertex_id
+int32 offset_vertex_id
+int32 previous_vertex_id
+int32 current_vertex_id
+g2oGraph g2o_graph
+UNCCTrackingResultEvaluation evaluation
+UNCCVertexPayload[] vertex_payload_list
+
