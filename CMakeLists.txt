@@ -57,6 +57,7 @@ add_message_files(
    Edge_SE3_PointXYZ.msg
    Edge_SE3_Plane.msg
    g2oGraph.msg
+   UNCCShape.msg
    UNCCTrackingResultEvaluation.msg
    UNCCVertexPayload.msg
    UNCCLocalMap.msg
